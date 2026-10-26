@@ -1,0 +1,40 @@
+SUBJECT: MACHINE LEARNING
+SAMPLE STUDY MATERIAL FOR GAPFINDER AI
+
+CHAPTER 1: SUPERVISED LEARNING
+
+Supervised learning is a machine learning technique in which a model learns from labeled training data. Each training example contains input features and a known target output.
+
+Classification predicts discrete categories. Examples include spam detection, sentiment classification, and disease classification.
+
+Regression predicts continuous numerical values. Examples include house-price prediction, temperature prediction, and sales forecasting.
+
+CHAPTER 2: OVERFITTING AND UNDERFITTING
+
+Overfitting occurs when a model learns the training data too closely, including noise and irrelevant patterns. It may achieve high training accuracy but perform poorly on unseen data.
+
+Underfitting occurs when a model is too simple to learn the underlying patterns in the data. It performs poorly on both training and test data.
+
+Overfitting can be reduced through cross-validation, regularization, feature selection, and simpler models.
+
+CHAPTER 3: MODEL EVALUATION
+
+A training dataset is used to fit a model. A test dataset evaluates how well the model generalizes to unseen examples.
+
+Accuracy is the proportion of all predictions that are correct.
+
+Precision is the proportion of predicted positive cases that are actually positive.
+
+Recall is the proportion of actual positive cases correctly identified by the model.
+
+The F1-score is the harmonic mean of precision and recall. It can be useful when balancing these two metrics, particularly for imbalanced classification problems.
+
+CHAPTER 4: DATA LEAKAGE
+
+Data leakage occurs when information that would not be available at prediction time is used during model training or evaluation.
+
+Leakage can lead to misleadingly high evaluation scores and poor real-world performance.
+
+To reduce leakage, split data appropriately and fit preprocessing steps using the training dataset only. Apply the fitted transformations to validation and test data.
+
+END OF SAMPLE STUDY MATERIAL
